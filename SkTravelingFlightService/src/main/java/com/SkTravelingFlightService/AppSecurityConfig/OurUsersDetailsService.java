@@ -1,6 +1,6 @@
-package com.SkTravelingUserService.service;
+package com.SkTravelingFlightService.AppSecurityConfig;
 
-import com.SkTravelingUserService.repository.UsersMasterRepo;
+import com.SkTravelingFlightService.repository.UsersMasterRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;

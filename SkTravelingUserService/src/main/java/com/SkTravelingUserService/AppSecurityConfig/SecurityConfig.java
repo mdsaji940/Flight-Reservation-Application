@@ -1,6 +1,5 @@
-package com.SkTravelingUserService.config;
+package com.SkTravelingUserService.AppSecurityConfig;
 
-import com.SkTravelingUserService.service.OurUsersDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

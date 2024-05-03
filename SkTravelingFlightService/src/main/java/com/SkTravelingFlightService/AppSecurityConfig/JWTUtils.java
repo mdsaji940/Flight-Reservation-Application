@@ -1,4 +1,4 @@
-package com.SkTravelingUserService.service;
+package com.SkTravelingFlightService.AppSecurityConfig;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

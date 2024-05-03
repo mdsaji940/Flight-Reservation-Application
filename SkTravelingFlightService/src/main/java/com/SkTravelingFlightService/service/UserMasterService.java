@@ -1,9 +1,10 @@
-package com.SkTravelingUserService.service;
+package com.SkTravelingFlightService.service;
 
-import com.SkTravelingUserService.AppSecurityConfig.JWTUtils;
-import com.SkTravelingUserService.dto.ReqRes;
-import com.SkTravelingUserService.entity.UsersMaster;
-import com.SkTravelingUserService.repository.UsersMasterRepo;
+
+import com.SkTravelingFlightService.AppSecurityConfig.JWTUtils;
+import com.SkTravelingFlightService.dto.ReqRes;
+import com.SkTravelingFlightService.entity.UsersMaster;
+import com.SkTravelingFlightService.repository.UsersMasterRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
