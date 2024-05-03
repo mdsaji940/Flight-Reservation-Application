@@ -49,7 +49,7 @@ public class JWTUtils {
     }
 
     private <T> T extractClaims(String token, Function<Claims, T> claimsTFunction){
-        return claimsTFunction.apply(Jwts.parserBuilder().setSigningKey(Key).build().parseClaimsJwt(token).getBody());
+        return claimsTFunction.apply(Jwts.parserBuilder().setSigningKey(Key).build().parseClaimsJws(token).getBody());
     }
 
     public boolean isTokenValid(String token, UserDetails userDetails){
