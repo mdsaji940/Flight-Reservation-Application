@@ -13,10 +13,9 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table(name = "SK_FLIGHT")
-public class Flight {
+public class FlightDetails {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long flightId;
+    private String flightId;
     private String flightNumber;
     private String airline;
     private String departureAirport;
@@ -24,7 +23,8 @@ public class Flight {
     private LocalDateTime departureDateTime;
     private LocalDateTime arrivalDateTime;
     private Duration flightDuration;
-    private double price;
+    private double bookingPrice;
+    private double farePrice;
     private int seatsAvailable;
     private int totalSeats;
     private String baggage;
@@ -37,5 +37,4 @@ public class Flight {
     private LocalDateTime createdDate;
     private Integer modifiedBy;
     private LocalDateTime modifiedDate;
-
 }

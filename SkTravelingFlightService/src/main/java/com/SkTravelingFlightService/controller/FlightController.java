@@ -1,11 +1,9 @@
 package com.SkTravelingFlightService.controller;
 
-import com.SkTravelingFlightService.entity.Flight;
+import com.SkTravelingFlightService.entity.FlightDetails;
 import com.SkTravelingFlightService.service.FlightService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -14,12 +12,17 @@ import java.util.List;
 public class FlightController {
     private final FlightService flightService;
     @PostMapping("/admin/add-flight")
-    public Flight addFlights(Flight flight){
-        return flightService.addFlight(flight);
+    public FlightDetails addFlights(@RequestBody FlightDetails flightDetails){
+        return flightService.addFlight(flightDetails);
     }
 
     @GetMapping("/admin/get-flights")
-    public List<Flight> getAllFlights(){
+    public List<FlightDetails> getAllFlights(){
         return flightService.getAllFlights();
+    }
+
+    @PutMapping("/admin/update-flight")
+    public FlightDetails updateFlight(@RequestBody FlightDetails flightDetails){
+        return flightService.updateFlight(flightDetails);
     }
 }
