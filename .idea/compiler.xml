@@ -7,17 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="SkTravelingBookingService" />
         <module name="SkTravelingFlightService" />
         <module name="SkTravelingUserService" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="SkTravelingBookingService" target="17" />
       <module name="SkTravelingFlightService" target="17" />
       <module name="SkTravelingUserService" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SkTravelingBookingService" options="-parameters" />
       <module name="SkTravelingFlightService" options="-parameters" />
       <module name="SkTravelingUserService" options="-parameters" />
     </option>

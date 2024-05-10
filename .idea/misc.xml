@@ -5,6 +5,9 @@
       <list>
         <option value="$PROJECT_DIR$/SkTravelingUserService/pom.xml" />
         <option value="$PROJECT_DIR$/SkTravelingFlightService/pom.xml" />
+        <option value="$PROJECT_DIR$/../SkTravelingReservationService/pom.xml" />
+        <option value="$PROJECT_DIR$/SkTravelingReservationService/pom.xml" />
+        <option value="$PROJECT_DIR$/SkTravelingBookingService/pom.xml" />
       </list>
     </option>
   </component>

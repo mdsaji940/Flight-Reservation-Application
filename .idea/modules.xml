@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SkTravelingBookingService/SkTravelingBookingService.iml" filepath="$PROJECT_DIR$/SkTravelingBookingService/SkTravelingBookingService.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/SkTravelingFlightReservation.iml" filepath="$PROJECT_DIR$/.idea/SkTravelingFlightReservation.iml" />
       <module fileurl="file://$PROJECT_DIR$/SkTravelingFlightService/SkTravelingFlightService.iml" filepath="$PROJECT_DIR$/SkTravelingFlightService/SkTravelingFlightService.iml" />
       <module fileurl="file://$PROJECT_DIR$/SkTravelingUserService/SkTravelingUserService.iml" filepath="$PROJECT_DIR$/SkTravelingUserService/SkTravelingUserService.iml" />
