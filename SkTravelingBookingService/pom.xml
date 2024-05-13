@@ -11,7 +11,7 @@
 	<groupId>com.SkTraveling</groupId>
 	<artifactId>SkTravelingBookingService</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SkTravelingReservationService</name>
+	<name>SkTravelingBookingService</name>
 	<description>Reservation and booking Service Module of SkTraveling app</description>
 	<properties>
 		<java.version>17</java.version>
